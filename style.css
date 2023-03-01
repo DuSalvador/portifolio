@@ -185,11 +185,6 @@ gap: 82px;
         color:var(--cor-terciaria);
     }
 
-    .apresentacao__imagem {
-        width: 50%;
-    }
-
-
     @media (max-width: 920px) {
 
         .img11 {
@@ -200,6 +195,10 @@ gap: 82px;
             width: 50%;
         }
 
+        .apresentacao__imagem {
+        width: 50%;
+        }
+        
         .apresentacao {
             flex-direction: column-reverse;
             padding: 5% 15%;
